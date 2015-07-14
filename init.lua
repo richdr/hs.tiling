@@ -37,7 +37,7 @@ function tiling.set(name, value)
 end
 
 function tiling.retile()
-  local space = getSpace()
+  local space = getspace()
   apply(space.windows, space.layout)
 end
 
