@@ -18,7 +18,7 @@ layouts['main-vertical'] = function(windows)
     local frame = win:screen():frame()
 
     if index == 1 then
-      frame.w = frame.w / 2
+      frame.w = (frame.w / 2) - 1
     else
       frame.x = frame.x + frame.w / 2
       frame.w = frame.w / 2
